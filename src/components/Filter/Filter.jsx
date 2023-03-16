@@ -22,7 +22,7 @@ export const Filter = ({ searchStr, onChangeInput }) => {
 };
 
 Filter.propTypes = {
-  earchStr: PropTypes.string.isRequired,
+  earchStr: PropTypes.string,
   onChangeInput: PropTypes.func.isRequired,
 };
 const ContactLabel = styled.label`
